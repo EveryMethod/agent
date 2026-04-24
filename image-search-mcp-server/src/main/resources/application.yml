@@ -7,5 +7,5 @@ server:
   port: 8127
 
 imageSearchTool:
-  apiKey: 5OrPu8TPGWw57grCEuUy9D2YnMqO9qvEtTQEsWNAhSexRwNp6MZ7bIrk
+  apiKey: 
   apiUrl: https://api.pexels.com/v1/search
