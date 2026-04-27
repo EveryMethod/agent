@@ -11,7 +11,7 @@ spring:
     #        stdio:
     #          servers-configuration: classpath:mcp-server.json
     dashscope:
-      api-key: sk-6b5c1b934d9b4d90bd94db728b6d9edc
+      api-key: 
       chat:
         options:
           model: qwen-plus
@@ -22,12 +22,12 @@ spring:
         max-document-batch-size: 10000
   datasource:
     url: jdbc:mysql://localhost:3306/sqltest?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false
-    username: root
-    password: 123456
+    username: 
+    password: 
     driver-class-name: com.mysql.cj.jdbc.Driver
-#    url: jdbc:postgresql://pgm-bp13u5026527334nmo.rwlb.rds.aliyuncs.com:5432/agent
-#    username: ai_agent
-#    password: 698523An
+#    url: jdbc:postgresql://:5432/agent
+#    username: 
+#    password: 
 #    driver-class-name: org.postgresql.Driver
 #    dynamic:
 #      primary: pgsql
@@ -64,4 +64,4 @@ logging:
 
 tool:
   search:
-    api_key: sfNKBxDJBgjW6F239FAN7h1p
+    api_key: 
