@@ -66,7 +66,7 @@ public class LoveApp {
      */
     public LoveApp(ChatModel dashscopeChatModel/*, DataBaseChatMemory chatMemory*/) {
         // 初始化基于文件的对话记忆
-//        String fileDir = System.getProperty("user.dir") + "tmp/chat-memory";
+//        String fileDir = System.getProperty("user.dir") + "/tmp/chat-memory";
 //        FileBaseChatMemory chatMemory = new FileBaseChatMemory(fileDir);
         // 初始化内存对话记忆
         ChatMemory chatMemory = new InMemoryChatMemory();
